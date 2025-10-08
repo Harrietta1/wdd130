@@ -27,6 +27,8 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
  img {
@@ -47,12 +49,19 @@ main{
 
 aside {
     width: 20rem;
-    text-align: center; 
+    text-align: center;
+    position: relative; 
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute; 
+    top: 67px;
+    left: 150px;
 }
 
 main img {
